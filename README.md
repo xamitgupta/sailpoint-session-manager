@@ -59,58 +59,19 @@ session-manager terminate-sessions john.doe --reason "Offboarding"
 ### View Metrics
 
 ```bash
-session-manager org-metrics
-```
+session-manager
 
-## 🔌 Supported Applications
 
-| Application | Status | Revocation | Discovery |
-|-------------|--------|------------|-----------| 
-| Google Workspace | ✅ | ✅ | ✅ |
-| Okta | ✅ | ✅ | ✅ |
-| AWS | 🟡 | ✅ | ✅ |
-| Slack | 🟡 | ❌ | ✅ |
 
-## 📊 Key Features
 
-### Session Management
-- Discover all active and idle sessions per user
-- Bulk terminate sessions across all apps with one command
-- Idle session detection (configurable threshold)
-- Session age and duration tracking
 
-### Approval Workflows
-- Optional approval requirements before termination
-- Integration with SailPoint Workflow engine
-- Configurable approver groups
-- Approval timeout handling
 
-### Audit Logging
-- Complete audit trail of all operations
-- Session termination history
-- Failed operation logging
-- Compliance-ready reports
 
-## 🤝 Contributing
 
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## 📄 License
+git add README.md
+git commit -m "Remove author section from README"
+git push origin main
 
-MIT License - see [LICENSE](LICENSE) for details.
 
-## 👨‍💻 Author
 
-**Amit Gupta**
-- Staff Security Engineer @ Meta
-- OSAC Panelist
-- [Twitter](https://x.com/_xamitgupta)
-- [Email](mailto:apphelp.csw@gmail.com)
-
----
-
-**Questions?** [Start a discussion](https://github.com/xamitgupta/sailpoint-session-manager/discussions)
-
-**Found an issue?** [Report it](https://github.com/xamitgupta/sailpoint-session-manager/issues)
-
-**Like this tool?** Please ⭐ star the repo!
